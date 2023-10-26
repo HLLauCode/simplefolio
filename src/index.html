@@ -17,9 +17,6 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <body>
@@ -51,7 +48,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/github.png"
                 alt="Profile Image"
               />
             </div>
@@ -59,12 +56,18 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                I am a fresh grad IT major with a degree in Computing! 
+                I am a fresh grad IT major with a Bachelor degree in Computing! 
                 I enjoy building websites and APIs and I am willing to 
                 start my career in the IT field!
               </p>
               <p class="about-wrapper__info-text">
                 Besides building websites and coding, I also like playing video games and cooking! My goal is to build my own gaming forum!
+              </p>
+              <p class="about-wrapper__info-text" style="color: rgb(190, 113, 20); font-size: 2rem; text-decoration: underline;">
+                <strong>Skills I have:</strong><br/>
+                HTML5 / CSS / Javascript <br/>
+                React / Redux / NodeJS / Java / Python<br/>
+                MySQL / PostgreSQL / MongoDB
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -87,15 +90,15 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Inteligence Helper</h3>
+                <h3 class="project-wrapper__text-title">Smart-brain</h3>
                 <div>
                   <p class="mb-4">
                     A website that provides the AI tools you need for your image, including face detection, color detection and etc! 
-                    It communicated with the tool providers using API
+                    It utilises thrid party APIs to provide the AI functions! It also has a ranking system to track each user's usage counter! 
+                    Developed using <span style="color: rgb(190, 113, 20); text-decoration: underline;"> React / NodeJS / PostgreSQL / ExpressJS. </span>
                   </p>
                 </div>
                 <a
@@ -110,7 +113,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/HLLauCode/smart-brain"
                 >
                   Source Code
                 </a>
@@ -129,27 +132,25 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/project-smart-brain.jpg"
                     />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">iTech Shop</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    iTech Shop is an e-commerve website that allows users to register and login. 
+                    They can buy their favourite technology products with the credits inside their account. 
+                    Users can check back what items they have added to the cart or purchased. 
+                    Developed using <span style="color: rgb(190, 113, 20); text-decoration: underline;"> MongoDB / Express.js / React.js / Nodejs.</span>
+                     And this is my first time using Typescript in my project!
                   </p>
                 </div>
                 <a
@@ -164,7 +165,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/HLLauCode/ecommerce-mern"
                 >
                   Source Code
                 </a>
@@ -183,27 +184,22 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/project-ecommerce.jpg"
                     />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Dog's Home</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Dog's Home is an API that saves data for dogs. It can stores the data entered by the Authorized Admin user using API calls. 
+                    Developed using <span style="color: rgb(190, 113, 20); text-decoration: underline;"> PostgreDB / Koa.js / React.js / Nodejs.</span>
                   </p>
                 </div>
                 <a
@@ -218,9 +214,17 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/HLLauCode/WebFront"
                 >
-                  Source Code
+                  Source Code 1
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/HLLauCode/WebBack"
+                >
+                  Source Code 2
                 </a>
               </div>
             </div>
@@ -235,38 +239,57 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="Project Dog Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/project-dogs-home.jpg"
                     />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
         </div>
       </div>
     </section>
-    <!-- /END Projects Section -->
 
-    <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:wnxy1533967@email.com"
-            >Call to Action</a
-          >
+          <p class="contact-wrapper__text">Send me an email!</p>
+          <div class="contact-box">
+              <form action="https://formsubmit.co/a66d93f8b0dcdee96cfa18bb0c5d0de2" method="POST">
+                <div class="input-row">
+                  <div class="input-group">
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Ben Lau" required>
+                  </div>
+                  <div class="input-group">
+                    <label>Phone ( Optional )</label>
+                    <input type="text" name="phone" placeholder="+852 1234 5678">
+                  </div>
+                </div>
+                <div class="input-row">
+                  <div class="input-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                  </div>
+                  <div class="input-group">
+                    <label>Subject</label>
+                    <input type="text" name="subject" placeholder="I'm interested!" required>
+                  </div>
+                </div>
+
+                <label>Message</label>
+                <textarea rows="5" name="message" placeholder="Your message" required></textarea>
+
+                <button type="submit">SEND</button>
+              </form>
+          </div>
+        </div>
         </div>
       </div>
     </section>
-    <!-- /END Contact Section -->
 
     <footer class="footer navbar-static-bottom">
       <div class="container">
@@ -290,7 +313,7 @@
             >Lau Hok Lung</a
           >
         </p>
-        
+
       </div>
     </footer>
 
